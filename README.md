@@ -1,11 +1,9 @@
-Collaborators:-
-Anwesa Basu
-Abhishek Kumar
+## Cached Messaging Simulator
 
 
 Instructions for Running the Program:-
 
-1. **Compiling the Program**
+## Compiling the Program**
 
 First, you need to compile the program using the provided Makefile. In your terminal, navigate to the directory containing the Makefile and source files, then run the following command:
 
@@ -13,7 +11,7 @@ First, you need to compile the program using the provided Makefile. In your term
    
 This command will compile the program according to the rules specified in the Makefile and create an executable named prog.
 
-2. **Modifying the Makefile for Different Cache Policies**
+## Modifying the Makefile for Different Cache Policies**
 
 Our code takes 2 command line arguments. 
     a. 1st argumentis the cache size which should be an integer
@@ -29,7 +27,7 @@ For example, to change the cache size to "4" and the replacement technique to "R
 *** Note:- if we want to run the program directly without modifying the Makefile each time, we can skip modifying the Makefile and proceed to the next step.
 
 
-3. **Running the Program**
+## Running the Program
 
 After compiling and modifying the Makefile (if needed), we can run the program with the chosen cache replacement technique. Execute the following command in your terminal:
 
@@ -37,7 +35,7 @@ After compiling and modifying the Makefile (if needed), we can run the program w
       
 This command will run the program with the cache replacement technique specified in the Makefile (LRU or Random).
 
-4. **Running the Program Directly (Without Modifying Makefile)****
+## Running the Program Directly (Without Modifying Makefile)
 
 If you prefer to run the program directly without modifying the Makefile each time for different cache policies, you can execute the program with the desired replacement technique as a command-line argument. For example:
 
@@ -49,7 +47,7 @@ To run with Random policy:
 
 
 
-5. **Code Explanation and flow of the program(documenatation):**
+## Code Explanation and flow of the program(documenatation):
 
     a. Initialize a file to store message in the disk.
     b. Create 8 messages and allocate memory.
@@ -63,7 +61,7 @@ To run with Random policy:
     i. Test all possible use cases
     
     
-6. **Cache Metrics Observation**:
+## Cache Metrics Observation
     
     It is my general obserevation observation that the hit ratio ranges from 0.60 to 0.65 for 1000 random generated message with 8 messages in the disk and cache size 5, using LRU replacement technique.
     
@@ -73,7 +71,7 @@ To run with Random policy:
 
 
 
-**Assumptions**:-
+## Assumptions:-
 
 ***Note:- We have also added the explanation in our code:- CacheStructure.h ******
 
